@@ -15,13 +15,19 @@ var s = function (p){
     canvas = p.createCanvas(p.windowWidth,p.windowHeight);
     canvas.position(0,0);
     canvas.style('z-index','-3');
-    music.loop();
     p.cursor('grab');
+    button = p.createButton('play');
+    button.position(113,400);
+    button.mousePressed(p.playmusic);
   };
 
   p.draw = function() {
     p.background(130);
   };
+  p.playmusic = function(){
+    music.loop();
+  };
+
 
 }
 
