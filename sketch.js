@@ -43,7 +43,7 @@ var s = function (p){
      p.image(heart,0,0,canvasL,canvasL);
     }
     if(introMusic.currentTime()>=31){
-      p2 = p.createA('../page2/index.html','W');
+      p2 = p.createA('page2/index.html','W');
       p2.style('text-decoration','none');
       p2.style('width','267');
       p2.style('height','267');
