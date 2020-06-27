@@ -8,6 +8,7 @@ var s = function (p){
   let t=0;
   var canvasL = 267;
   let p2;
+  let button;
 
   p.preload = function() {
     bImg = p.loadImage('media/bgFinal.png');
@@ -21,7 +22,9 @@ var s = function (p){
     canvas.position(113,151);
     p.background(bImg);
     p.frameRate(fr);
-    introMusic.play();
+    button = p.createButton('play');
+    button.position(0,200);
+    button.mousePressed(p.playmusic);
 
 
   };
@@ -51,6 +54,9 @@ var s = function (p){
     }
 
   };
+  p.playmusic = function(){
+    introMusic.play();
+  }
 }
 
 var myp5 = new p5(s, 'window');
