@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    cursor: crosshair;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+
+
+}
+#main{
+  position: relative;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  left: 50%;
+  top:50%;
+  margin-left:-250px;
+  margin-top:-281px;
+} 
