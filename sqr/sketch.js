@@ -60,7 +60,7 @@ t = function( p ) {
     caterpillar.position(113,151);
     caterpillar.style('width','267px');
     caterpillar.style('z-index','1');
-    caterpillar.style('opacity','0.1');
+    caterpillar.style('opacity','0.5');
 
 
   };
@@ -76,18 +76,14 @@ t = function( p ) {
 
    p.playmusicA = function() {
      musicA.play();
-     caterpillar.style('opacity','0.5');
-   }
+    }
    p.playmusicB = function() {
      musicB.play();
-     caterpillar.style('opacity','0.1');
-   }
+    }
    p.playmusicC = function() {
      musicC.play();
-     caterpillar.style('opacity','0.9');
-   }
-   p.playmusicD = function() {
-     caterpillar.style('opacity','0');
+    }
+   p.playmusicD = function() { 
      mosaic = p.createImg('media/mosaic.png');
      mosaic.position(113,151);
      mosaic.style('width','267px');
