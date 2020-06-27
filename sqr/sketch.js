@@ -40,8 +40,7 @@ t = function( p ) {
     musicB = p.loadSound('media/d.mp3');
     musicC = p.loadSound('media/c.mp3');
     musicE = p.loadSound('media/e.mp3');
-    caterpillar = p.createImg('media/caterpillar2.gif');
-  };
+   };
   p.setup = function() {
     canvas = p.createCanvas(canvasL, canvasL);
     canvas.position(113,151);
@@ -56,11 +55,7 @@ t = function( p ) {
     buttonE=p.createButton('cum');
     buttonE.position(580,380);
     buttonD.style('z-index','3');
-
-    caterpillar.position(113,151);
-    caterpillar.style('width','267px');
-    caterpillar.style('z-index','1');
-    caterpillar.style('opacity','0.5');
+ 
 
 
   };
@@ -95,7 +90,6 @@ t = function( p ) {
    }
    p.playmusicE = function() {
      musicE.play();
-     caterpillar.style('opacity','0.3');
-   }
+    }
 };
 var myp5 = new p5(t, 'c2');
