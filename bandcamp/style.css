@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(194,191,186);
+
+
+}
+.main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner{
+  width: 80vw;
+
+
+ }
+
+#cover{
+  text-align: center;
+  padding-bottom: 0;
+}
+#navbar{
+  background-color: rgb(169,215,230);
+  padding-top: 0;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  width: 80vw;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+ }
+
+.contents{
+  display:flex;
+  flex-direction: row;
+  border: 10px solid white;
+  background-color: white;
+  width: 80vw;
+  font-family: sans-serif;
+
+}
+#profile{
+  display:flex;
+  flex-direction: column;
+  width: 20vw;
+  align-items: center;
+  color: rgb(217,130,132);
+ }
+
+#products{
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 60vw;
+ }
