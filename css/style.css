@@ -33,9 +33,13 @@ body{
   @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px){ 
-      html{overflow-y:viaible;
+      html{overflow-y:visible;
         }
-      .showMobile {display: inline;
+      #main{
+          display:none;
+        }
+      .showMobile {
+          display: inline;
           color: white;
           font-size: 11px;
         }
