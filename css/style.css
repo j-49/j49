@@ -37,6 +37,9 @@ body{
         }
       #main{
           display:none;
+          background-image:url('media/banner.png');
+          background-size:cover;
+          background-repeat:no-repeat;
         }
       .showMobile {
           display: inline;
