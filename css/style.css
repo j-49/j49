@@ -10,14 +10,10 @@ html {
 
 
 body{
-
     background-color: gray;
     margin: 0;
     padding: 0;
     height: 100vh;
-
-
-
 }
 #main{
   position: relative;
@@ -31,4 +27,16 @@ body{
 }
 
 
- 
+ .showMobile {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      html{overflow-y:viaible;
+        }
+      .showMobile {display: inline;
+          color: white;
+          font-size: 11px;
+        }
+  }
