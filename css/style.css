@@ -37,11 +37,13 @@ body{
         }
       #main{
           display:none;
+          
+          
+        }
+      .showMobile {
           background-image:url('media/banner.png');
           background-size:cover;
           background-repeat:no-repeat;
-        }
-      .showMobile {
           display: inline;
           color: white;
           font-size: 11px;
