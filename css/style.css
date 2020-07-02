@@ -41,11 +41,15 @@ body{
         }
       #main{
           display:none;
-          
+          background-image:url('media/banner.png');
+          background-size:cover;
+          background-repeat:no-repeat;
           
         }
       .showMobile {
-          
+          background-image:url('media/banner.png');
+          background-size:cover;
+          background-repeat:no-repeat;
           display: inline;
           color: white;
           font-size: 11px;
