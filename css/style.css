@@ -33,7 +33,11 @@ body{
   @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px){ 
-      html{overflow-y:visible;
+      html{
+          overflow-y:visible;
+          background-image:url('media/banner.png');
+          background-size:cover;
+          background-repeat:no-repeat;
         }
       #main{
           display:none;
@@ -41,9 +45,7 @@ body{
           
         }
       .showMobile {
-          background-image:url('media/banner.png');
-          background-size:cover;
-          background-repeat:no-repeat;
+          
           display: inline;
           color: white;
           font-size: 11px;
